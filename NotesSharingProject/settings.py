@@ -133,8 +133,8 @@ DEBUG= False
 
 ALLOWED_HOSTS ['.vercel.app', '.now.sh']
 
-import os
-STATIC_FILES_DIR=os.path.join(BASE_DIR,'static')
-STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles_build','static')
+# import os
+# STATIC_FILES_DIR=os.path.join(BASE_DIR,'static')
+# STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles_build','static')
 
 
