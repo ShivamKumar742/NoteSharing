@@ -129,5 +129,12 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+DEBUG= False
+
+ALLOWED_HOSTS ['.vercel.app', '.now.sh']
+
+import os
+STATIC_FILES_DIR=os.path.join(BASE_DIR,'static')
+STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles_build','static')
 
 
